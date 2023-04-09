@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  position: relative;
+}
+.slider img {
+  width: 100%;
+}
+.slider .dots-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+.slider .dots-container .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  cursor: pointer;
+}
+.slider .dots-container .dot.active {
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */
